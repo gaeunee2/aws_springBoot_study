@@ -1,7 +1,7 @@
 name: Slack Notification
  
 on:
-  workflow_dispatch:
+  workflow_dispatch:  #Actions 화면에 Run workflow 버튼 생성
   pull_request:
     branches: [ "master", "develop" ]
  
